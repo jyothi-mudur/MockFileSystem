@@ -5,7 +5,7 @@
 #include "Shell.h"
 
 using namespace std;
-
+//adding another line of comment`
 int main() 
 {
     FileSystem* fs = new FileSystem();
@@ -13,6 +13,7 @@ int main()
     
     sh->run();
     
+    // Deletion in the reverse order
     delete sh;
     delete fs;
 

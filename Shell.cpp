@@ -14,7 +14,7 @@ Shell::Shell(FileSystem* fs) {
 Shell::~Shell() {
     mfs = NULL;
 }
-
+//to display user options
 void Shell::DisplayUserOptions() {
     cout << "1. cd <dir>\n" \
          << "2. pwd \n" \
