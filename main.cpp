@@ -13,6 +13,7 @@ int main()
     
     sh->run();
     
+    // Deletion in the reverse order
     delete sh;
     delete fs;
 
